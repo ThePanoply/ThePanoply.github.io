@@ -40,12 +40,11 @@ a img {
     text-align: center;
     align-content: center;
     display: inline-block;
-    margin:auto;
+    margin: auto;
 
 }
 
 #SocnetIcons {
-    
     margin: auto;
     align-content: center;
 }
@@ -54,7 +53,6 @@ a img {
     .socneticon {
         display: inline-block;
         width: 20%;
-        
     }
 
     #SocnetIcons {

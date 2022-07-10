@@ -1,5 +1,4 @@
 #GoogleForm {
-    /*frameborder="0" marginheight="0" marginwidth="0"*/
     height: 2650px;
 }
 
@@ -19,9 +18,3 @@
         width: 85%;
     }
 }
-
-/*@media (max-width: 499px) {
-    #GoogleForm {
-        width: 1000px;
-    }
-}*/
