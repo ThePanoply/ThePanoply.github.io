@@ -16,7 +16,7 @@ function highlight(target) {
 $(window).scroll(function() {
     var scrolledFromTop = $(window).scrollTop();
     var onAbout = $('#AboutDivider').offset().top;
-    var onSocnet = $('#FBDivider').offset().top;
+    var onSocnet = $('#SocnetDivider').offset().top;
     var onContact = $('#ContactDivider').offset().top;
 
     // adjust for menu click
