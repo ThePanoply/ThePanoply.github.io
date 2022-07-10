@@ -1,13 +1,7 @@
 
 .socnet {
-    float: left;
+    float: none;
     margin: auto;
-}
-
-.socneticons {
-    display:flex;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .socnetiframe {

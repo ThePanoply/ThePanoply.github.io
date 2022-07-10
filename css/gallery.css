@@ -3,20 +3,15 @@
     display: block;
     max-width: 100%;
     height: auto;
-    display: block;
+    width: 25vw;
 }
 
 .col-sm-3 {
-
     text-align: center;
     position: relative;
     float: left;
     padding: 2%;
     margin: auto;
-}
-
-.face {
-    width: 260px;
 }
 
 .gallery {

@@ -35,66 +35,23 @@ a img {
     padding:5px;
 }
 
+.socneticons {
+  display: flex;
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
 
 .socneticon {
     text-align: center;
     align-content: center;
     display: inline-block;
     margin: auto;
-
 }
 
 #SocnetIcons {
     margin: auto;
     align-content: center;
 }
-
-@media (min-width: 1100px) {
-    .socneticon {
-        display: inline-block;
-        width: 20%;
-    }
-
-    #SocnetIcons {
-        width: 1000px;
-    }
-
-    .divider {
-        height: 200px;
-    }
-}
-
-@media (min-width: 800px) and (max-width: 1099px) {
-    .socneticon {
-        display: inline-block;
-        margin:auto;
-        width: 20%;
-    }
-
-    .divider {
-        height: 125px;
-    }
-}
-
-@media (max-width: 799px) {
-    .socneticon {
-        display: inline-block;
-        margin:auto;
-        width: 20%;
-    }
-
-    .divider {
-        height: 125px;
-    }
-
-}
-
-@media (max-width: 1099px) {
-    #SocnetIcons {
-        width: 80%;
-    }
-}
-
 
 /* /SocnetIcons */
 
@@ -131,13 +88,6 @@ a img {
 
 /* /DIVIDERS */
 
-.bigNum {
-    font-size: 20px;
-    color: #000;
-    background: #FFF;
-    padding: 2px;    
-}
-
 br.clearLeft {
    clear: left;        
-}​
+}
