@@ -110,12 +110,12 @@ div.parallax-image-about {
 
 div.parallax-image-socnet {
   background-image: url('../images/dividers/socnetdivider.png');
-  margin-top: 0vh;
+  margin-top: -5vh;
 }
 
 div.parallax-image-contact {
   background-image: url('../images/dividers/contactdivider.png');
-  margin-top: 0vh;
+  margin-top: -5vh;
 }
 
 .sticky {
