@@ -5,44 +5,10 @@
 }
 
 .socnetiframe {
-    height: 700px;   
+    width: 100%;
+    height: 40vh;   
 }
 
 #Youtube-Root {
     text-align: center;
-}
-
-@media (min-width: 1000px) {
-    .socnetiframe {
-        width: 50%;
-    }
-
-    .socnet{
-        width: 100%;
-        margin: auto;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 999px) {
- 
-    .socnetiframe {
-        width: 100%;
-    }
-
-    .socnet{
-        width: 42%;
-        margin: auto;
-    }
-}
-
-@media (max-width: 499px) {
-    .socnetiframe {
-        width: 100%;
-    }
-
-    .socnet{
-        width: 85%;
-        margin: auto;
-    }
-
 }
