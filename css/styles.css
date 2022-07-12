@@ -50,8 +50,8 @@ div.section:last-child {
 }
 
 #fotografer {
-    margin: 0;
-    font-size: 10px;
+  margin: 0;
+  font-size: 10px;
 }
 
 /* MENU */
@@ -115,7 +115,7 @@ div.parallax-image-contact {
 
 .sticky {
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: -webkit-sticky; /* Safari */
   position: sticky;
