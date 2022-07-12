@@ -3,31 +3,28 @@ img {
     max-height: 100%;
 }
 
-.container {
-    padding: 0 5% 0 5%;
-    width: 90%;
-}
-
 #NavWrap {
-    line-height: 50px;
-    z-index:10;
     position: fixed;
     background: #fe7405;
+    width: 100%;
 }
 
 #Nav {
     background-color: transparent;    
-    transition-duration: 1s;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 .navOnHeader {
     padding-top: 15px;
+    padding-bottom: 3px;
 }
 
 #Nav ul {
     margin: 0;
-    padding: 0;    
-    float: center;
+    padding: 0;
+    display: inline-block;
 }
 
 #Nav li {
@@ -60,47 +57,4 @@ img {
 
 #Nav li a:active {
   color: #7F4F29;
-}
-
-@media (max-width: 760px) {
-    #Nav {
-        width: 95%;
-        margin: auto;
-    }
-
-    #Nav ul {
-        float: left;
-    }
-
-    #NavWrap {
-        width: 100%;
-        margin: auto;
-    }
-
-    h1 {
-        color: white;
-    }
-}
-
-@media (min-width: 761px) and (max-width: 1499px) {
-    #Nav {
-        width: 80%;
-        margin-left: 5%;
-    }
-
-    #NavWrap {
-        width: 100%;
-    }
-}
-
-@media (min-width: 1500px) {
-    #Nav {
-        width: 1000px;
-        margin: auto;
-    }
-
-    #NavWrap {
-        width: 100%;
-        margin: auto;
-    }
 }

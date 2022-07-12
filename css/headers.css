@@ -1,19 +1,7 @@
 #InnerContainer { 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-    position:relative;
-    margin: 0%;
-}
-
-#HeaderContainer {
-    width: 100%;
-    position:absolute;
-    top:50%;
-    height:100px;
-    margin-top: -90px;        
-    text-transform: uppercase;
-    text-align: center;
+    position: relative;
+    height: 166px;
+    z-index: 10;
 }
 
 h1 {
@@ -22,41 +10,6 @@ h1 {
     color: black;
 }
 
-#Logo {
-    font-size: 30px;  
-    line-height: 40px;    
-    padding: 5px;
-}
-
-
-@media (min-width: 401px) and (max-width: 699px) {
-    #InnerContainer {
-        height: 200px;
-    }
-
-    h1 {
-        font-size: 50px;
-        margin-top: 20%;
-    }
-}
-
-@media (min-width: 700px) {
-    #InnerContainer {
-        height: 115px;
-    }
-
-    h1 {
-        font-size: 70px;
-    }
-}
-
-@media (max-width: 400px) {
-    #InnerContainer {
-        height: 200px;
-    }
-
-    h1 {
-        font-size: 40px;
-        margin-top: 20%;
-    }
+p.nav {
+    min-height: 73px;
 }

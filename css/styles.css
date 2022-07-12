@@ -60,14 +60,9 @@ div.section:last-child {
 
 /* SocnetIcons */
 
-div.section-socneticons {
-  position: relative;
-  background-color: white;
-  width: 100%;
-  min-height: 0;
-  padding: 5px 5px;
-  z-index: 1;
-  text-align: center;
+#SocnetIcons {
+  padding: 5px 5px 0px 5px;
+  z-index: 2;
 }
 
 a img {
@@ -81,8 +76,8 @@ a img {
 
 .socneticons {
   display: flex;
-  padding-left: 30vw;
-  padding-right: 30vw;
+  padding-left: calc(40vw - 100px);
+  padding-right: calc(40vw - 100px);
 }
 
 .socneticon {
