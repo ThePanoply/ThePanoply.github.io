@@ -1,27 +1,8 @@
 #GoogleForm {
-    /*frameborder="0" marginheight="0" marginwidth="0"*/
-    height: 2650px;
+    height: 2660px;
+    width: 85%;
 }
-
 
 #contact {
     text-align: center;
 }
-
-@media (min-width: 1000px) {
-    #GoogleForm {
-        width: 1000px;
-    }
-}
-
-@media (max-width: 999px) {
-    #GoogleForm {
-        width: 85%;
-    }
-}
-
-/*@media (max-width: 499px) {
-    #GoogleForm {
-        width: 1000px;
-    }
-}*/

@@ -14,215 +14,193 @@
         <link href="css/menu.css" rel="stylesheet" />
         <link href="css/headers.css" rel="stylesheet" />
         <link href="css/gallery.css" rel="stylesheet" />
-        <link href="css/SocNet.css" rel="stylesheet" />
+        <link href="css/socnet.css" rel="stylesheet" />
         <link href="css/contact.css" rel="stylesheet" />
 
 
         <!-- scripts -->
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
-        <script type='text/javascript' src='js/in-view.min.js'></script>    
+        <script type='text/javascript' src='js/in-view.min.js'></script>
         <script type='text/javascript' src='js/menu.js'></script>
 
     <script type='text/javascript'>
     
     </script>
 
-        <style>
-        #plugins {
-            background-color: white;
-            background-size: cover;
-            -moz-background-size: cover
-        }
-        </style>
-
     </head>
 <body>
 
-    <!-- page header -->
-        <div id="InnerContainer">
-            <div id="NavWrap" class="container">
-                <div id="Nav" class="navOnHeader">
-                    <ul>
-                        <li><img src="images/the_panoply_header.svg" alt="The Panoply"/></li>
-                        <li><a id="Home" href="#InnerContainer" class="smoothScroll">hem</a></li>
-                        <li><a id="About" href="#AboutDivider" class="smoothScroll">om</a></li>
-                        <li><a id="Socnet" href="#FBDivider" class="smoothScroll">flöde</a></li>
-                        <li><a id="Contact" href="#ContactDivider" class="smoothScroll">kontakt</a></li>
-                    </ul>    
-                    <br class="clearLeft" />
-                </div>
+    <!-- Page header -->
+    <div id="InnerContainer">
+        <div id="NavWrap" class="container">
+            <div id="Nav" class="navOnHeader">
+                <p class="nav"><img src="images/the_panoply_header.svg" alt="The Panoply"/></p>
+                <ul>
+                    <li><a id="Home" href="#InnerContainer" class="smoothScroll">hem</a></li>
+                    <li><a id="About" href="#AboutDivider" class="smoothScroll">om</a></li>
+                    <li><a id="Socnet" href="#SocnetDivider" class="smoothScroll">flöde</a></li>
+                    <li><a id="Contact" href="#ContactDivider" class="smoothScroll">kontakt</a></li>
+                </ul>
+                <br class="clearLeft" />
             </div>
         </div>
+    </div>
 
-    <section id="SocnetIcons">
+    <!-- Social network icons section -->
+    <div class="section" id="SocnetIcons">
         <div class="row socneticons">
             <a class="socneticon" href="https://soundcloud.com/the-panoply-steelband" target="_top">
-                <img src="images/loggor/soundcloud.png" alt="soundcloud" /> <!-- style="width:41px;height:41px;border:0;padding:5px"-->
+                <img src="images/loggor/soundcloud.png" alt="soundcloud" />
             </a>
             <a class="socneticon" href="https://www.youtube.com/user/thepanoplysteelband" target="_top">
-                <img src="images/loggor/youtube.png" alt="youtube" /> <!-- style="width:41px;height:41px;border:0;padding:5px"-->
+                <img src="images/loggor/youtube.png" alt="youtube" />
             </a>
             <a class="socneticon" href="https://www.facebook.com/thepanoplysteelband" target="_top">
-                <img src="images/loggor/facebook.png" alt="facebook" /> <!-- style="width:41px;height:41px;border:0;padding:5px"-->
+                <img src="images/loggor/facebook.png" alt="facebook" />
             </a>
             <a class="socneticon" href="https://instagram.com/thepanoplysteelband/" target="_top">
-                <img src="images/loggor/instagram.png" alt="instagram" /> <!-- style="width:41px;height:41px;border:0;padding:5px"-->
+                <img src="images/loggor/instagram.png" alt="instagram" />
             </a>
         </div>
-    </section>
+    </div>
 
-    <section id="AboutDivider" class="divider">  <!-- style="background: url('http://i1039.photobucket.com/albums/a473/thepanoplysteelband/11163790_508440289315296_6116540000048146353_n_zps5whcchgz.jpg') no-repeat fixed; background-size: cover; height: 200px;"> -->
-    </section>
+    <!-- About divider -->
+    <div class="parallax-image-about sticky">
+    </div>
 
-    <section id="About" style="background-color:white">
-        <h2 style="text-align: center; color: black;">
-            Om oss
-        </h2>
+    <div class="section-header" id="AboutDivider">
+        <div class="header-text">
+            <h2>Om oss</h2>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div class="section" id="About">
+        
+        <div class="row introtext">
+            <p>Vi är en grupp engagerade musiker som tillsammans spelar oljefat med hemmabas i Södertälje.</p>
+            <p>Vår repertoar innehåller de flesta typer av musik.</p>
+            <p>Bandet har funnits i olika format uppemot 10 år, med medlemmar som spelat i upp till och mer än 20 år.</p>
+        </div>
+        
         <div class="container">
-            <div class="row introtext">
-                <p>Vi är en grupp engagerade musiker som tillsammans spelar oljefat med hemmabas i Södertälje. Vi spelar de flesta typer av musik.</p>
-                <p>Bandet har funnits i olika format uppemot 10 år, med medlemmar som spelat i upp till och mer än 20 år.</p>
-            </div>
-
             <div class="gallery">                
-                
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Matilda.jpg" alt="Matilda Bengs" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Matilda.jpg" alt="Matilda Bengs" />
                     <h4>Matilda</h4>
                     <p>sopran</p>
                 </div>
-                <!-- <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Alina.png" alt="Alina Linerstad" />
-                    <h4>Alina Linerstad</h4>
-                    <p>sopran</p>
-                </div> -->
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Emma.png" alt="Emma Isaksson" />
-                    <h4>Emma</h4>
-                    <p>tenor, sopran</p>
-                </div>
-                <!-- <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Lina.png" alt="Lina Widegren" />
-                    <h4>Lina Widegren</h4>
-                    <p>tenor</p>
-                </div> -->
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Amanda.jpg" alt="Amanda Persdotter" />
-                    <h4>Amanda</h4>
-                    <p>tenor</p>
-                </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Nicklas.jpg" alt="Nicklas Weidenholm" />
-                    <h4>Nicklas</h4>
-                    <p>trummor</p>
-                </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Carol.jpg" alt="Carol Dahlberg" />
-                    <h4>Carol</h4>
-                    <p>6-bas</p>
-                </div>
-                <!-- <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Jan.png" alt="Jan Karlsen" />
-                    <h4>Jan Karlsen</h4>
-                    <p>Percussion</p>
-                </div> -->
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Mikael.jpg" alt="Mikael Nilsson" />
-                    <h4>Micke</h4>
-                    <p>6-Bas, sopran</p>
-                </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Lotta.jpg" alt="Lotta Ehlert" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Lotta.jpg" alt="Lotta Ehlert" />
                     <h4>Lotta</h4>
                     <p>6-Bas, 4-bas, sopran</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Johan.jpg" alt="Johan Andersson" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Amanda.jpg" alt="Amanda Persdotter" />
+                    <h4>Amanda</h4>
+                    <p>tenor</p>
+                </div>
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Nicklas.jpg" alt="Nicklas Weidenholm" />
+                    <h4>Nicklas</h4>
+                    <p>trummor</p>
+                </div>
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Carol.jpg" alt="Carol Dahlberg" />
+                    <h4>Carol</h4>
+                    <p>6-bas</p>
+                </div>
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Mikael.jpg" alt="Mikael Nilsson" />
+                    <h4>Micke</h4>
+                    <p>6-Bas, sopran</p>
+                </div>
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Emma.png" alt="Emma Isaksson" />
+                    <h4>Emma</h4>
+                    <p>tenor, sopran</p>
+                </div>
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Johan.jpg" alt="Johan Andersson" />
                     <h4>Johan</h4>
                     <p>gitarr, sopran</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Jonatan.png" alt="Jonatan Lidström" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Jonatan.png" alt="Jonatan Lidström" />
                     <h4>Jonatan</h4>
                     <p>6-bas, alt, sopran</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Johannes.jpg" alt="Johannes Asplund-Samuelsson" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Johannes.jpg" alt="Johannes Asplund-Samuelsson" />
                     <h4>Johannes</h4>
                     <p>baryton</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Harley.png" alt="Harley Davidsson" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Harley.png" alt="Harley Davidsson" />
                     <h4>Harley</h4>
                     <p>baryton</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/Tommy.jpg" alt="Tommy Nilsson" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/Tommy.jpg" alt="Tommy Nilsson" />
                     <h4>Tommy</h4>
-                    <p>4-Bas, sopran</p>
+                    <p>sopran</p>
                 </div>
-                <div class=col-sm-3>
-                    <img class="img-responsive face" src="images/ansikten/William.jpg" alt="William Dahlberg" />
+                <div>
+                    <img class="img-responsive" src="images/ansikten/William.jpg" alt="William Dahlberg" />
                     <h4>Wille</h4>
                     <p>Sopran</p>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
     <br class="clearLeft" />
 
-    <section id="FBDivider" class="divider">
-    </section>
+    <!-- Social network divider -->
+    <div class="parallax-image-socnet sticky">
+    </div>
+
+    <div class="section-header" id="SocnetDivider">
+        <div class="header-text">
+            <h2>Vårt flöde</h2>
+        </div>
+    </div>
+
     <br class="clearLeft" />
 
-    <section> <!-- id="SocNet">-->
-        <h2 id="SocnetHeader" style="text-align: center; color: black;">
-            Vårt flöde
-        </h2>
-
-            <!-- <div> <!-- class="row" id="SocNetRow">--
-                <div id="facebook-root" class="socnet">
-                    <div class="fb-page socnetiframe"
-                        data-href="https://www.facebook.com/ThePanoplySteelband" 
-                        data-tabs="timeline" 
-                        data-width="500px" 
-                        data-height="700px"
-                        data-small-header="true" 
-                        data-adapt-container-width="true" 
-                        data-hide-cover="false" 
-                        data-show-facepile="true"
-                    >
-                        Väntar på Facebook...
-                    </div>
-                </div>
-            </div> -->
-
+    <!-- Social network section -->
+    <div class="section">
             <div id="Youtube-Root" class="socnet">
                 <iframe id="YoutubeIframe" class="socnetiframe" src="https://www.youtube.com/embed/?listType=user_uploads&amp;list=thepanoplysteelband"> 
                 </iframe>
             </div>
-    </section>
+        </div>
 
     <br class="clearLeft" />
 
-    <section id="ContactDivider" class="divider" >
-        <!--style="background: url('http://i1039.photobucket.com/albums/a473/thepanoplysteelband/thepanoply_channel_art_zpsfaqerdpp.png');">-->
-    </section>
+    <!-- Contact divider -->
+    <div class="parallax-image-contact sticky sticky-center">
+    </div>
+
+    <div class="section-header" id="ContactDivider">
+        <div class="header-text">
+            <h2>Kontakta oss</h2>
+        </div>
+    </div>
 
     <br class="clearLeft" />
 
-    <section id="contact">
-        <h2 id="ContactHeader" style="text-align: center; color: black;">
-            Kontakta oss
-        </h2>
+    <!-- Contact section -->
+    <div class="section" id="contact">
 
         <iframe id="GoogleForm" src="https://docs.google.com/forms/d/1NtQk-lAuL8Eh4UjLNLOfAnxoT9NpVxz24FW_iUCtreg/viewform?embedded=true" >
         </iframe>  
 
-    </section>
+    </div>
 
-    <div id="fotografer">
+    <!-- Photographers section -->
+    <div class="section" id="fotografer">
         <p>Foton av Per Eliasson, Hasse Asplund, Hans-Olof Östman, m fl</p>
     </div>
   </body>
-</html>		
+</html>
