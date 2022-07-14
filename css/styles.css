@@ -99,18 +99,20 @@ a img {
 /* https://codepen.io/Everybodyknows/pen/abbyLOZ */
 
 div.parallax-image-about {
-  background-image: url('../images/dividers/aboutdivider.png');
+  background-image: url('../images/dividers/aboutdivider.jpg');
   margin-top: -100vh;
+  background-position: center top;
 }
 
 div.parallax-image-socnet {
-  background-image: url('../images/dividers/socnetdivider.png');
+  background-image: url('../images/dividers/socnetdivider.jpg');
   margin-top: -5vh;
 }
 
 div.parallax-image-contact {
   background-image: url('../images/dividers/contactdivider.png');
   margin-top: -5vh;
+  background-position: center bottom;
 }
 
 .sticky {
@@ -123,10 +125,6 @@ div.parallax-image-contact {
   -moz-background-size: cover;
   background-size: cover;
   z-index: -1;
-}
-
-.sticky-center {
-    background-position: center bottom;
 }
 
 /* /DIVIDERS */
