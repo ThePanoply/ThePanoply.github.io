@@ -1,3 +1,4 @@
 .history/
 dev/.history/
 node_modules/
+.vscode
