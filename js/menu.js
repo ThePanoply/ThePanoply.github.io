@@ -15,9 +15,9 @@ function highlight(target) {
 
 $(window).scroll(function() {
     var scrolledFromTop = $(window).scrollTop();
-    var onAbout = $('#AboutDivider').offset().top;
-    var onSocnet = $('#SocnetDivider').offset().top;
-    var onContact = $('#ContactDivider').offset().top;
+    var onAbout = $('#OmBandet').offset().top;
+    var onSocnet = $('Videor').offset().top;
+    var onContact = $('#Boka').offset().top;
 
     // adjust for menu click
     var klick = 4;
