@@ -7,9 +7,9 @@ const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format
 // Simple CSV parser (splits on newlines and commas)
 // For more robust parsing, use PapaParse or a similar library
 async function loadSheetAsCsv() {
-  const response = await fetch(csvUrl);
-  if (!response.ok) throw new Error("Network response was not ok");
-  const csvText = await response.text();
+  const res = await fetch(csvUrl);
+  if (!res.ok) throw new Error("Network response was not ok");
+  const csvText = await res.text();
 
   const rows = csvText
     .trim()
@@ -28,8 +28,16 @@ const loadTable = async () => {
 
   // headers
   const headerRow = document.createElement("tr");
-  rows[0].map((column) => {
+  rows[0].map((column, idx) => {
     const headerColumn = document.createElement("th");
+    if (idx === 0) {
+      headerColumn.setAttribute("class", "firstColumn");
+    } else if (idx === rows[0].length - 1) {
+      headerColumn.setAttribute("class", "lastColumn");
+    } else {
+      headerColumn.setAttribute("class", "middleColumns");
+    }
+
     headerColumn.innerText = column;
     headerRow.appendChild(headerColumn);
   });
@@ -40,9 +48,35 @@ const loadTable = async () => {
     const tableRow = document.createElement("tr");
     let columnHeader = "";
 
-    for (let j = 0; j < rows[i].length; j++) {
+    if (i % 2 === 0) {
+      tableRow.setAttribute("class", "secondTr");
+    }
+
+    // console.log({ row: rows[i] });
+    const columns = [];
+    rows[i].forEach((c, j) => {
+      let result =
+        c[0] === '"'
+          ? `${rows[i][j]}${rows[i][j + 1]}`
+          : c[c.length - 1] !== '"' && c;
+      result = result && result.replaceAll('"', "");
+      result && columns.push(result);
+    });
+    console.log(columns);
+
+    for (let j = 0; j < columns.length; j++) {
+      // Create column values
+
       const columnElm = document.createElement("td");
-      const column = rows[i][j];
+      if (j === 0) {
+        columnElm.setAttribute("class", "firstColumn");
+      } else if (j === columns.length - 1) {
+        columnElm.setAttribute("class", "lastColumn");
+      } else {
+        columnElm.setAttribute("class", "middleColumns");
+      }
+
+      const column = columns[j];
 
       if (column[column.length - 1] === '"') {
         // End of place

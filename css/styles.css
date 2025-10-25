@@ -1,6 +1,8 @@
 :root {
     --main-complementary-color: #018bfa;
     --main-color: #fe7405;
+    --secondary-color: #ffc686;
+    --secondary-complementary-color: #003979;
 }
 
 *,
