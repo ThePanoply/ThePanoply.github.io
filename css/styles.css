@@ -55,6 +55,10 @@ div.section:last-child {
     padding: 3em calc(20vw - 70px) 6em;
 }
 
+iframe {
+    border: 0px;
+}
+
 #fotografer {
     margin: 0;
     font-size: 10px;
