@@ -1,20 +1,10 @@
-:root {
-  --main-complementary-color: #018bfa;
-  --main-color: #f79420;
-  --secondary-color: #ffc686;
-  --secondary-complementary-color: #003979;
-
-  --large-size: 901px;
-  --small-size: 900px;
-}
-
 body {
   margin: 0;
 }
 
 header {
   width: 100%;
-  background-color: #f79420;
+  background-color: var(--main-color);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -22,6 +12,11 @@ header {
 }
 
 #banner {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+#banner-image {
   display: block;
   margin: auto;
   max-width: 1100px;
@@ -38,8 +33,9 @@ img {
   justify-content: center;
   padding-left: 0px;
   margin-bottom: 0px;
+  margin-top: 0px;
 
-  li {
+  a {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -47,23 +43,19 @@ img {
     letter-spacing: 1px;
     text-transform: uppercase;
     list-style-type: none;
-    color: #fff;
     background-color: transparent;
     margin: 0 10px 0 0;
-  }
-
-  li a {
     color: black;
     text-decoration: none;
     line-height: 20px;
     font-family: 'PottaOne'
 }
 
-  li a:hover {
+  a:hover {
     color: white;
   }
 
-  li a:active {
+  a:active {
     color: #7f4f29;
   }
 }
