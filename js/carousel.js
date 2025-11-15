@@ -14,7 +14,7 @@ const small = imageNames.map(
 
 // Creating image elements
 const slideContainer = document.getElementById("slide_container");
-const navDots = document.getElementById("carousel_navdots");
+const navDots = document.getElementById("hem");
 const images = screen.width > 1000 ? large : small;
 
 function checkWebPSupport() {                                                                                                                                                                   
