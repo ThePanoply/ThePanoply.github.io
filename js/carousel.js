@@ -14,7 +14,7 @@ const small = imageNames.map(
 
 // Creating image elements
 const slideContainer = document.getElementById("slide_container");
-const navDots = document.getElementById("hem");
+const navDots = document.getElementById("NavDots");
 const images = screen.width > 1000 ? large : small;
 
 function checkWebPSupport() {                                                                                                                                                                   
