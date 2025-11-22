@@ -34,7 +34,8 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    padding: 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
     list-style-type: none;
@@ -51,6 +52,6 @@ header {
   }
 
   a:active {
-    color: #7f4f29;
+    color: var(--secondary-color);
   }
 }
