@@ -6,15 +6,16 @@ table {
 
 tr {
   height: 3rem;
+  text-align: left;
 }
 
-.firstColumn {
+/*.firstColumn {
   text-align: left;
 }
 
 .lastColumn {
-  text-align: right;
-}
+  text-align: left;
+}*/
 
 .secondTr {
   background-color: var(--secondary-color);
