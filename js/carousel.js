@@ -1,18 +1,24 @@
 // images
-const imageNames = ["anders.annakarin", "palssons", "uppsala.slott"];
+const imageNames = [
+  "anders.annakarin",
+  "palssons",
+  "uppsala.slott",
+  "nilssons",
+];
 
-const large = imageNames.map((img) => `images/carousel/${img}.webp`);
+const large = imageNames.map((img) => `images/carousel/${img}.thin.webp`);
 const small = imageNames.map((img) => `images/carousel/${img}.small.webp`);
 
 // Creating image elements
 const slideContainer = document.getElementById("slide_container");
-const navDots = document.getElementById("carousel_navdots");
+const navDots = document.getElementById("NavDots");
 const images = screen.width > 1000 ? large : small;
 
 images.forEach((url, id) => {
   const slide = document.createElement("div");
   slide.setAttribute("class", "carousel__slide");
   slide.setAttribute("role", "group");
+  slide.setAttribute("alt", imageNames[id]);
   slide.setAttribute("aria-label", `${id} of ${images.length}`);
   slide.setAttribute("aria-roledescription", "slide");
 
