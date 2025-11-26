@@ -83,14 +83,14 @@ section {
   background-color: white;
   width: 100%;
   min-height: 0;
-
+  padding-bottom: 10px;
   z-index: 1;
 }
 
 /* DIVIDERS-> */
 /* https://codepen.io/Everybodyknows/pen/abbyLOZ */
 
-@media (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 900px) {
   .header-text {
     margin-left: 10vw;
     font-size: 2rem;
@@ -155,6 +155,18 @@ div.parallax-image-contact.lazy {
   -moz-background-size: cover;
   background-size: cover;
   z-index: -1;
+}
+
+h2 {
+  margin: 10px 20px;
+  font-family: "PottaOne";
+  /*font-size: 3em*/
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 1.5em;
+  }
 }
 
 /* ->DIVIDERS */
