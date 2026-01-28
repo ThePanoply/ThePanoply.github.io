@@ -10,6 +10,10 @@ h2 {
   font-family: "PottaOne";
 }
 
-p.nav {
-    min-height: 73px;
+.nav {
+  min-height: 73px;
+
+  img {
+    width: 80%;
+  }
 }

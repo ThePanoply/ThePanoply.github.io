@@ -170,18 +170,6 @@ div.parallax-image-contact.lazy {
   z-index: -1;
 }
 
-h2 {
-  margin: 10px 20px;
-  font-family: "PottaOne";
-  /*font-size: 3em*/
-}
-
-@media (max-width: 500px) {
-  h2 {
-    font-size: 1.5em;
-  }
-}
-
 /* ->DIVIDERS */
 
 br.clearLeft {
