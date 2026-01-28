@@ -90,7 +90,15 @@ section {
 /* DIVIDERS-> */
 /* https://codepen.io/Everybodyknows/pen/abbyLOZ */
 
-@media (min-width: 500px) and (max-width: 900px) {
+@media (max-width: 900px) {
+  div.parallax-image-socnet {
+    background-image: url("../images/dividers/socnetdivider.small.webp");
+  }
+
+  div.parallax-image-contact {
+    background-image: url("../images/dividers/contactdivider.small.webp");
+  }
+
   .header-text {
     margin-left: 10vw;
     font-size: 2rem;
@@ -104,6 +112,11 @@ section {
 
   div.parallax-image-contact {
     background-image: url("../images/dividers/contactdivider.webp");
+  }
+
+  .header-text {
+    margin-left: 20vw;
+    font-size: 3rem;
   }
 }
 
