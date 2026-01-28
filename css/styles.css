@@ -139,21 +139,20 @@ section {
   background-attachment: fixed;
 }
 
+.fixed {
+  top: 15vh;
+  width: 100%;
+  height: 30vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
 .sticky {
   position: -webkit-sticky; /* Safari */
   position: sticky;
-}
-
-h2 {
-  margin: 10px 20px;
-  font-family: "PottaOne";
-  /*font-size: 3em*/
-}
-
-@media (max-width: 500px) {
-  h2 {
-    font-size: 1.5em;
-  }
 }
 
 /* ->DIVIDERS */
