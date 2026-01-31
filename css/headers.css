@@ -1,15 +1,19 @@
-#Hem {
-    position: relative;
-    height: 166px;
-    z-index: 10;
-}
-
 h1 {
-    font-family: sans-serif, Arial, Helvetica, Montserrat, "Helvetica Neue";
-    font-weight: 700;
-    color: black;
+  font-family: "PottaOne";
+  font-weight: 700;
+  color: black;
+  margin: 0px;
 }
 
-p.nav {
-    min-height: 73px;
+h2 {
+  margin: 10px 20px;
+  font-family: "PottaOne";
+}
+
+.nav {
+  min-height: 73px;
+
+  img {
+    width: 80%;
+  }
 }
