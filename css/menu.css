@@ -27,21 +27,21 @@ img {
   display: inline-block;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   #Nav li {
-    font-weight: 200;
-    font-size: 10px;
-  }
-}
-
-@media ((min-width: 451px) and (max-width: 900px)) {
-  #Nav li {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px;
   }
 }
 
-@media (min-width: 901px) {
+@media ((min-width: 401px) and (max-width: 900px)) {
+  #Nav li {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 451px) {
   #Nav li {
     font-weight: 400;
     font-size: 14px;
@@ -49,6 +49,7 @@ img {
 }
 
 #Nav li {
+  font-family: "PottaOne";
   line-height: 20px;
   float: left;
 
@@ -66,7 +67,6 @@ img {
   color: black;
   text-decoration: none;
   line-height: 20px;
-  font-family: "PottaOne";
 }
 
 #Nav li a:hover {
