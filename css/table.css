@@ -1,15 +1,22 @@
 table {
-    width: 100%;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
 }
 
-.firstColumn {
-    text-align: left;
+tr {
+  height: 3rem;
+  text-align: left;
+}
+
+/*.firstColumn {
+  text-align: left;
 }
 
 .lastColumn {
-    text-align: right;
-}
+  text-align: left;
+}*/
 
 .secondTr {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
