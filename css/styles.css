@@ -4,7 +4,7 @@
   --secondary-color: #ffc686;
   --secondary-complementary-color: #003979;
 
-  --max-width: 1350px;
+  --max-width: 1100px;
 }
 
 @font-face {
@@ -158,7 +158,7 @@ div.parallax-image-contact.lazy {
 .fixed {
   top: 10vh;
   width: 100%;
-  
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -168,7 +168,7 @@ div.parallax-image-contact.lazy {
 
 /* IOS Safari doesn't support fixed, see https://bugs.webkit.org/show_bug.cgi?id=275247 */
 /* This is IOS Safari */
-@supports (-webkit-touch-callout: none) {  
+@supports (-webkit-touch-callout: none) {
   .fixed {
     position: -webkit-sticky; /* Safari */
     position: sticky;
