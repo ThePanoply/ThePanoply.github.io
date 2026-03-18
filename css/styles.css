@@ -1,6 +1,6 @@
 :root {
   --main-complementary-color: #018bfa;
-  --main-color: #F79420;
+  --main-color: #f79420;
   --secondary-color: #ffc686;
   --secondary-complementary-color: #003979;
 
@@ -31,7 +31,8 @@ html,
 body {
   min-height: 300%;
   width: 100%;
-  font-family: Rambla, sans-serif, Arial, Helvetica, Montserrat, "Helvetica Neue";
+  font-family:
+    Rambla, sans-serif, Arial, Helvetica, Montserrat, "Helvetica Neue";
   margin-left: auto;
   padding: 0;
   position: relative;
@@ -94,7 +95,7 @@ section {
   width: 100%;
   min-height: 0;
   /* padding: 3em calc(20vw - 70px); */
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   z-index: 1;
 }
 
@@ -164,7 +165,6 @@ div.parallax-image-contact.lazy {
   background-size: cover;
   z-index: -1;
 }
-
 
 /* IOS Safari doesn't support fixed, see https://bugs.webkit.org/show_bug.cgi?id=275247 */
 /* This is IOS Safari */
