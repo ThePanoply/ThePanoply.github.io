@@ -20,7 +20,7 @@ h3 {
   max-width: var(--max-width);
   display: inline-table;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 0.5rem;
 }
 
 .section-header {

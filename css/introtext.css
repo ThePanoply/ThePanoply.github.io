@@ -3,6 +3,7 @@
   width: 90%;
   max-width: var(--max-width);
   display: inline-table;
+  margin: 2rem;
 }
 
 @media (min-width: 901px) {
@@ -49,7 +50,6 @@ a img {
   );
   margin: auto;
   justify-content: space-around;
-  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
