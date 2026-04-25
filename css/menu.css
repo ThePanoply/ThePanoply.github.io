@@ -85,7 +85,7 @@ nav > div > a:active {
 
 a.cta_menu:link, a.cta_menu:visited {
   border-radius: 20px;
-  background-color: #c23f14;
+  background-color: #db7600;
   border-color: var(--main-color);
   text-decoration: none;
   display: inline-block;
