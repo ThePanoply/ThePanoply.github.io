@@ -23,7 +23,7 @@
 hr {
   width: 80%;
   max-width: var(--max-width);
-  margin: 10px auto;
+  margin: 20px auto;
   height: 1px;
   color: lightgray;
   background-color: lightgray;
