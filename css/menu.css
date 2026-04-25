@@ -31,27 +31,21 @@ img {
 nav {
   max-width: var(--max-width);
   display: flex;
-  padding-left: 0px;
+  justify-content: center;
   margin: auto;
-  justify-content: space-evenly;
   height: var(--menu-height);
 }
 
 nav > div {
   white-space: nowrap;
-  margin: 10px 0px;
+  margin: 10px 10px;
   font-family: 'PottaOne';
   font-size: 18px;
 }
 
-div.nav-left {
-  float: left;
-}
-
-div.nav-right {
-  padding-left: 10px;
+div.nav-cta {
+  padding-left: 20px;
   border-left: solid var(--secondary-color);
-  float: right;
 }
 
 @media (max-width: 600px) {
