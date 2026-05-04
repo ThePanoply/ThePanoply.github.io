@@ -21,16 +21,6 @@
   }
 }
 
-hr {
-  width: 80%;
-  max-width: var(--max-width);
-  margin: 3rem auto;
-  height: 1px;
-  color: lightgray;
-  background-color: lightgray;
-  border: none;
-}
-
 a img {
   display: inline;
   margin: auto;
@@ -50,8 +40,8 @@ a img {
   );
   margin: auto;
   justify-content: space-around;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: var(--vertical-margin);
+  margin-bottom: var(--vertical-margin);
 }
 
 .socneticons a {
@@ -84,5 +74,5 @@ a img {
 
 .cta {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: var(--vertical-margin);
 }
