@@ -4,6 +4,7 @@ form {
   justify-self: center;
   font-size: 18px;
   display:grid;
+  margin-bottom: var(--vertical-margin);
 }
 
 form > p {
@@ -61,7 +62,7 @@ form > p.bp {
 
 #sentStatus {
   width: 100%;
-  visibility: hidden;
+  display: none;
 }
 
 .toaster {
@@ -72,8 +73,9 @@ form > p.bp {
   padding: 14px 50px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: none;
   font-family: "PottaOne";
   font-size: 18px;
   border-style: none;
+  margin-bottom: var(--vertical-margin);
 }
