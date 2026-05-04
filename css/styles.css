@@ -100,6 +100,7 @@ section {
 
 #IntroSection {
   min-height: calc(var(--min-section-height) + var(--divider-height) - var(--carousel-height));
+  margin-bottom: var(--vertical-margin);
 }
 
 #om {
