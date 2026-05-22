@@ -12,6 +12,7 @@ const imageNames = [
   "10",
   "11",
   "12",
+  "13",
 ];
 
 const altValues = [
@@ -26,7 +27,8 @@ const altValues = [
   "The Panoply deltar i Järna Kulturfest 2024",
   "The Panoply ställer upp med medley i Talang 2020",
   "The Panoply på scen inför spelning med Isak Sundström och Victoria Verseau på Uppsala Slotts konstmuseum 2022",
-  "The Panoply spelar ambient inom Lumen Project med Isak Sundström och Victoria Verseau i Eric Ericssonhallen 2022"
+  "The Panoply spelar ambient inom Lumen Project med Isak Sundström och Victoria Verseau i Eric Ericssonhallen 2022",
+  "The Panoply ställer upp inför loppspelning på Scaniamilen 2026",
 ]
 
 // Check webp support and fallback to jpeg in old browsers
